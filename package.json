@@ -1,0 +1,21 @@
+{
+  "name": "portfolio-winner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "react": "cd reactjs && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chashoff/portfolio-winner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chashoff/portfolio-winner/issues"
+  },
+  "homepage": "https://github.com/chashoff/portfolio-winner#readme"
+}
