@@ -1,0 +1,19 @@
+.fs-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.grid-container-four {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+.nav-column {
+    text-align: center;
+    height: 100%;
+    transition: .2s ease-in-out all;
+    position: relative;
+}
+.nav-column:hover {
+    transform: scale(1.1);
+}

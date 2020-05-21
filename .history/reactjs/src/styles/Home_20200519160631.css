@@ -1,0 +1,47 @@
+.fs-container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.grid-container-four {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
+
+}
+.nav-column {
+    height: 100%;
+    transition: .2s ease-in-out all;
+    position: relative;
+}
+.nav-column:hover {
+    transform: scale(1.1);
+}
+.bg-column-home {
+    background-image: url('/images/background.png');
+}
+.bg-column-about {
+    background-image: url('/images/books.jpg');
+    background-size: ;
+}
+.container-home {
+    position: absolute;
+    top: 50%;
+}
+.container-about {
+    position: absolute;
+    top: 40%;
+}
+.container-projects {
+    position: absolute;
+    top: 50%;
+}
+.container-contact {
+    position: absolute;
+    top: 60%;
+}
+.container-contact, .container-home, .container-about, .container-projects {
+    background-color: rgba(245, 245, 245, .4);
+    display: block;
+    width: 70%;
+    padding: .5em 0 .5em .5em;
+}

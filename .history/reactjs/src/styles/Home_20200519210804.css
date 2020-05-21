@@ -1,0 +1,33 @@
+.column-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
+    height: 100vh;
+    position: relative;
+    max-width: 100vw;
+}
+.grid-item {
+    display: flex;
+    align-items: center;
+}
+.grid-item-container-blog {
+    width: 100%;
+}
+.grid-item-container-about {
+    width: 100%;
+    margin-bottom: 12rem;
+}
+.grid-item-container-projects {
+    width: 100%;
+}
+.grid-item-container-contact {
+    margin-top: 12rem;
+    width: 100%;
+}
+.grid-item-container-contact h1 {
+    background-color: rgba(16, 16, 16, .7);
+    width: 70%;
+}
+.grid-background {
+    background-color: rgba(16, 16, 16, .4);
+    width: 100%;
+}
