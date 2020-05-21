@@ -1,0 +1,9 @@
+.column-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
+    position: relative;
+}
+.grid-item-container-blog {
+    position: absolute;
+    
+}

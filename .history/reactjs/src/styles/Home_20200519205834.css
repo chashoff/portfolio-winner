@@ -1,0 +1,27 @@
+.column-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
+    height: 100vh;
+    position: relative;
+    max-width: 100vw;
+}
+.grid-item {
+    width: 100%;
+    height: 100
+}
+.grid-item-container-blog {
+    margin-top: 50%;
+}
+.grid-item-container-about {
+
+}
+.grid-item-container-projects {
+
+}
+.grid-item-container-contact {
+
+}
+.grid-background {
+    background-color: rgba(16, 16, 16, .4);
+    width: 100%;
+}

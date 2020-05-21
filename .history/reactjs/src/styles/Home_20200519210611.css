@@ -1,0 +1,31 @@
+.column-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 50px;
+    height: 100vh;
+    position: relative;
+    max-width: 100vw;
+}
+.grid-item {
+    display: flex;
+    align-items: center;
+}
+.grid-item-container-blog {
+
+}
+.grid-item-container-about {
+    margin-bottom: 12rem;
+}
+.grid-item-container-projects {
+
+}
+.grid-item-container-contact {
+margin-top: 12rem;
+}
+.grid-item-container-contact h1 {
+    background-color: aqua;
+    width: 100%;
+}
+.grid-background {
+    background-color: rgba(16, 16, 16, .4);
+    width: 100%;
+}
