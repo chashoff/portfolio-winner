@@ -1,0 +1,12 @@
+.social-icon:nth-of-type(1) {
+    position: absolute;
+    height: 40px;
+    right: 0;
+    padding-right: 5em;
+    padding-top: 1em;
+    transition: .2s ease-in-out all;
+}
+.social-icon:nth-of-type(1)
+.social-icon:hover {
+    transform: scale(1.1) !important;
+}

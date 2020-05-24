@@ -1,0 +1,8 @@
+.social-icon {
+    position: absolute;
+    height: 25px;
+    transition: .2s ease-in-out all;
+}
+.social-icon:hover {
+    transform: scale(1.1) !important;
+}

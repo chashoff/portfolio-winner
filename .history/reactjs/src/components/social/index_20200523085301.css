@@ -1,0 +1,10 @@
+.social-icon {
+    position: absolute;
+    height: 40px;
+    right: 0;
+    
+    transition: .2s ease-in-out all;
+}
+.social-icon:hover {
+    transform: scale(1.1) !important;
+}
