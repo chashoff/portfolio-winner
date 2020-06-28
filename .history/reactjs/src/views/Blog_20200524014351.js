@@ -15,6 +15,7 @@ class Blog extends Component {
                             typeSpeed={40}
                             backSpeed={50}
                             className="typed-js"
+                            loop
                             ></Typed>
                     </div>
                 </div>

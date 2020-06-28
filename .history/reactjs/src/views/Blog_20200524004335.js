@@ -7,17 +7,16 @@ class Blog extends Component {
         return (
             <div>
                 <div className="hero-container">
-                    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+                    <div>
                         <Typed
                         strings={[
                             'How I solve my coding problems!',
-                            'How I try to solve my coding problems...']}
+                            'How I try and solve my coding problems...']}
                             typeSpeed={40}
                             backSpeed={50}
                             className="typed-js"
                             ></Typed>
                     </div>
-                </div>
             </div>
         )
     }
